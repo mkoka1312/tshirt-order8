@@ -151,7 +151,7 @@
   </form>
 
   <div class="preview">
-    <img id="shirt" src="https://mk-oka-site.netlify.app/white-front.png" alt="Футболка">
+    <img id="shirt" src="white-front.png" alt="Футболка">
     <img id="print-preview" alt="Принт превью">
   </div>
 
@@ -180,16 +180,16 @@
       const side = document.getElementById('side').value;
       const base = {
         white: {
-          front: 'https://mk-oka-site.netlify.app/white-front.png',
-          back: 'https://mk-oka-site.netlify.app/white-back.png'
+          front: 'white-front.png',
+          back: 'white-back.png'
         },
         gray: {
-          front: 'https://mk-oka-site.netlify.app/gray-front.png',
-          back: 'https://mk-oka-site.netlify.app/gray-back.png'
+          front: 'gray-front.png',
+          back: 'gray-back.png'
         },
         black: {
-          front: 'https://mk-oka-site.netlify.app/black-front.png',
-          back: 'https://mk-oka-site.netlify.app/black-back.png'
+          front: 'black-front.png',
+          back: 'black-back.png'
         }
       };
       shirtImage.src = base[color][side];
